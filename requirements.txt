@@ -1,0 +1,12 @@
+pygame
+openai
+pyttsx3
+requests
+SpeechRecognition
+wikipedia
+bs4
+plyer
+pyaudio
+pyinstaller
+flask
+httpx
