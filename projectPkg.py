@@ -32,7 +32,7 @@ def find_files(filename,a=True):
    return result
 
 def news():
-    main_url = " https://newsapi.org/v2/top-headlines?country=in&apiKey=63360ece95d648db8019b132f02491c3"
+    main_url = " https://newsapi.org/v2/top-headlines?country=in&apiKey=(Your API key)"
     res = requests.get(main_url)
     news = res.json()
     article = news["articles"]
